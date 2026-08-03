@@ -1,6 +1,6 @@
 # Protracted feeding: source data and reproduction
 
-Minimal source-data release for manuscript v3.63 and Supplementary Figure Legends v2.1:
+Minimal source-data and one-command reproduction release:
 
 > Automated Temporal Analysis Reveals Stress-Induced Protracted Feeding Regulated by Mesolimbic Dopamine in Mice
 
@@ -31,4 +31,4 @@ Reproduction covers the temporal analyses backed by the source files in this rel
 
 GitHub: https://github.com/gxkjj/protracted-feeding-ai-analysis
 
-Zenodo: https://doi.org/10.5281/zenodo.21774487
+Zenodo: https://doi.org/10.5281/zenodo.21775043

@@ -1,7 +1,7 @@
 {
   "title": "Automated Temporal Analysis Reveals Stress-Induced Protracted Feeding Regulated by Mesolimbic Dopamine in Mice",
   "upload_type": "software",
-  "description": "Source data and a dependency-free one-command reproduction. The archive contains the 17 Prism-exported CSV files supplied on 2026-08-03. Reproduction covers the temporal analyses backed by the source files in this release. Source values for Figure 3F and Supplementary Figure S2 are held separately and are available from the corresponding author on reasonable request.",
+  "description": "Source data and a dependency-free one-command reproduction. Reproduction covers the temporal analyses backed by the source files in this release. Source values for Figure 3F and Supplementary Figure S2 are held separately and are available from the corresponding author on reasonable request.",
   "creators": [
     {
       "name": "Guo, Xiaokai",

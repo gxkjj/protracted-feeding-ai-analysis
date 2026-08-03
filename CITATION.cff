@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite this archive."
+title: "Source data and reproduction for automated temporal analysis of protracted feeding"
+type: software
+authors:
+  - family-names: Guo
+    given-names: Xiaokai
+    affiliation: "Molecular Neuroscience Research Center, Shiga University of Medical Science; Hebei Chest Hospital"
+  - family-names: Fujioka
+    given-names: Yusuke
+    affiliation: "Molecular Neuroscience Research Center, Shiga University of Medical Science"
+  - family-names: Kawai
+    given-names: Kaori
+    affiliation: "Department of Aging Neurobiology, National Center for Geriatrics and Gerontology"
+  - family-names: Ishigaki
+    given-names: Shinsuke
+    affiliation: "Molecular Neuroscience Research Center, Shiga University of Medical Science"
+version: "3.63"
+date-released: 2026-08-03
+repository-code: "https://github.com/gxkjj/protracted-feeding-ai-analysis"
+doi: "10.5281/zenodo.21774487"
+license: MIT

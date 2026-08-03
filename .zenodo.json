@@ -1,0 +1,40 @@
+{
+  "title": "Automated Temporal Analysis Reveals Stress-Induced Protracted Feeding Regulated by Mesolimbic Dopamine in Mice",
+  "upload_type": "software",
+  "description": "Source data and a dependency-free one-command reproduction for manuscript v3.63 and Supplementary Figure Legends v2.1. The archive contains the 17 Prism-exported CSV files supplied on 2026-08-03. Reproduction covers the temporal analyses backed by the source files in this release. Source values for Figure 3F and Supplementary Figure S2 are held separately and are available from the corresponding author on reasonable request.",
+  "creators": [
+    {
+      "name": "Guo, Xiaokai",
+      "affiliation": "Molecular Neuroscience Research Center, Shiga University of Medical Science; Hebei Chest Hospital"
+    },
+    {
+      "name": "Fujioka, Yusuke",
+      "affiliation": "Molecular Neuroscience Research Center, Shiga University of Medical Science"
+    },
+    {
+      "name": "Kawai, Kaori",
+      "affiliation": "Department of Aging Neurobiology, National Center for Geriatrics and Gerontology"
+    },
+    {
+      "name": "Ishigaki, Shinsuke",
+      "affiliation": "Molecular Neuroscience Research Center, Shiga University of Medical Science"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit-license",
+  "keywords": [
+    "feeding behavior",
+    "protracted feeding",
+    "behavioral analysis",
+    "dopamine",
+    "reproducible research"
+  ],
+  "version": "3.63",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/gxkjj/protracted-feeding-ai-analysis/releases/tag/v3.63",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

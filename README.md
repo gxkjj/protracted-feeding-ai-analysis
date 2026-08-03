@@ -25,8 +25,6 @@ The Figure 1D reproduction uses 170 mice and gives **R² = 0.5819, p < 0.0001**.
 
 The `data/` directory contains the 17 mouse-level Prism CSV files supplied on 2026-08-03. The analysis uses two-tailed Welch's t tests for independent groups, a paired t test for Figure 4H, and ordinary least-squares linear regression for Figure 1D, matching the latest manuscript and figure legends.
 
-This release starts from the supplied mouse-level Prism values. It does not regenerate those values from the original videos, DeepLabCut output, or SimBA detailed-bout exports.
-
 Reproduction covers the temporal analyses backed by the source files in this release. Source values for Figure 3F and Supplementary Figure S2 are held separately and are available from the corresponding author on reasonable request. See [`data/README.md`](data/README.md) for the complete paper-to-file map.
 
 ## Citation

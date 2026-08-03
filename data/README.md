@@ -1,6 +1,6 @@
 # Source-data map
 
-These are the 17 CSV files exported from GraphPad Prism and supplied on 2026-08-03. Blank cells represent unequal group sizes and are ignored by the reproduction script.
+The files in this directory were exported from GraphPad Prism. Blank cells represent unequal group sizes and are ignored by the reproduction script.
 
 | Paper panel | Source file | Analysis |
 |---|---|---|

@@ -23,12 +23,10 @@ The Figure 1D reproduction uses 170 mice and gives **R² = 0.5819, p < 0.0001**.
 
 ## Scope
 
-The `data/` directory contains the 17 mouse-level Prism CSV files supplied on 2026-08-03. The analysis uses two-tailed Welch's t tests for independent groups, a paired t test for Figure 4H, and ordinary least-squares linear regression for Figure 1D, matching the latest manuscript and figure legends.
-
 Reproduction covers the temporal analyses backed by the source files in this release. Source values for Figure 3F and Supplementary Figure S2 are held separately and are available from the corresponding author on reasonable request. See [`data/README.md`](data/README.md) for the complete paper-to-file map.
 
 ## Citation
 
 GitHub: https://github.com/gxkjj/protracted-feeding-ai-analysis
 
-Zenodo: https://doi.org/10.5281/zenodo.21775043
+Zenodo: https://doi.org/10.5281/zenodo.21775569

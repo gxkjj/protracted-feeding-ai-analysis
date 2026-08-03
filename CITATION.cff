@@ -15,8 +15,7 @@ authors:
   - family-names: Ishigaki
     given-names: Shinsuke
     affiliation: "Molecular Neuroscience Research Center, Shiga University of Medical Science"
-version: "3.63"
 date-released: 2026-08-03
 repository-code: "https://github.com/gxkjj/protracted-feeding-ai-analysis"
-doi: "10.5281/zenodo.21774487"
+doi: "10.5281/zenodo.21775043"
 license: MIT

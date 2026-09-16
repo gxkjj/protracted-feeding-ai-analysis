@@ -32,4 +32,4 @@ Supplementary Figures S3 and S5 are included in [`data/supplementary/`](data/sup
 
 GitHub: https://github.com/gxkjj/protracted-feeding-ai-analysis
 
-Zenodo: https://doi.org/10.5281/zenodo.21775569
+Zenodo: https://doi.org/10.5281/zenodo.22781815

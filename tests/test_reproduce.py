@@ -42,7 +42,7 @@ class ReproductionTests(unittest.TestCase):
         self.assertEqual(len(rows), 28)
         self.assertEqual(sum(row["test"] == "Paired t test" for row in rows), 4)
         # Values independently checked against the final manuscript and figure exports.
-        reported = {"S3A": .1963, "S3B": .0269, "S3C": .0353, "S3D": .0384, "S5A": .4959, "S5B": .0338, "S5C": .8068}
+        reported = {"S1A": .1963, "S1B": .0269, "S1C": .0353, "S1D": .0384, "S5A": .4959, "S5B": .0338, "S5C": .8068}
         for row in rows:
             if row["metric"] == "Total feeding time":
                 self.assertEqual(round(row["p_value"], 4), reported[row["figure"]])

@@ -1,4 +1,4 @@
-"""Validate and reproduce the released S3 and S5 mouse-level endpoints."""
+"""Validate and reproduce the released S1 and S5 mouse-level endpoints."""
 
 import csv
 import math
@@ -9,10 +9,10 @@ def statistics(data_dir, mean, sem, welch_t_test, paired_t_test):
     folder = data_dir / "supplementary"
     with (folder / "figure_map.csv").open(newline="", encoding="utf-8") as handle:
         specs = list(csv.DictReader(handle))
-    expected = {(panel, col) for panel in ("S3A", "S3B", "S3C", "S3D", "S5A", "S5B", "S5C") for col in range(1, 5)}
+    expected = {(panel, col) for panel in ("S1A", "S1B", "S1C", "S1D", "S5A", "S5B", "S5C") for col in range(1, 5)}
     actual = [(s["figure"], int(s["column"])) for s in specs]
     if len(actual) != len(expected) or set(actual) != expected:
-        raise ValueError("Supplementary panel map must cover S3 and S5 exactly once")
+        raise ValueError("Supplementary panel map must cover S1 and S5 exactly once")
     files = [s["source_file"] for s in specs]
     actual_files = {p.relative_to(folder).as_posix() for p in folder.rglob("*.csv")}
     if len(set(files)) != 28 or actual_files != set(files) | {"figure_map.csv", "mouse_values.csv"}:

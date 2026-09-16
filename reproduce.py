@@ -55,12 +55,12 @@ COMPARISONS = (
     ComparisonSpec("Figure 4E", "HFD rescue.csv", "Welch t test", "Int-HFD", "Int-HFD+DA", "0.0332"),
     ComparisonSpec("Figure 4F", "isolation rescue.csv", "Welch t test", "Isolation", "Isolation+DA", "0.0440"),
     ComparisonSpec("Figure 4H", "DAT-Cre.csv", "Paired t test", "DAT-Cre Control", "DAT-Cre CNO", "0.0360"),
-    ComparisonSpec("Figure S1A (male)", "HFD male.csv", "Welch t test", "Control", "Int-HFD", "0.0720"),
-    ComparisonSpec("Figure S1A (female)", "HFD female.csv", "Welch t test", "Control", "Int-HFD", "0.0380"),
-    ComparisonSpec("Figure S1B (male)", "isolation male.csv", "Welch t test", "Control", "Isolation", "0.0470"),
-    ComparisonSpec("Figure S1B (female)", "isolation female.csv", "Welch t test", "Control", "Isolation", "0.0410"),
-    ComparisonSpec("Figure S1C (male)", "restraint male.csv", "Welch t test", "Control", "Restraint", "0.0684"),
-    ComparisonSpec("Figure S1C (female)", "restraint female.csv", "Welch t test", "Control", "Restraint", "0.7205"),
+    ComparisonSpec("Figure S2A (male)", "HFD male.csv", "Welch t test", "Control", "Int-HFD", "0.0720"),
+    ComparisonSpec("Figure S2A (female)", "HFD female.csv", "Welch t test", "Control", "Int-HFD", "0.0380"),
+    ComparisonSpec("Figure S2B (male)", "isolation male.csv", "Welch t test", "Control", "Isolation", "0.0470"),
+    ComparisonSpec("Figure S2B (female)", "isolation female.csv", "Welch t test", "Control", "Isolation", "0.0410"),
+    ComparisonSpec("Figure S2C (male)", "restraint male.csv", "Welch t test", "Control", "Restraint", "0.0684"),
+    ComparisonSpec("Figure S2C (female)", "restraint female.csv", "Welch t test", "Control", "Restraint", "0.7205"),
 )
 
 
@@ -357,7 +357,7 @@ def reproduce(data_dir: Path, output_dir: Path) -> dict[str, object]:
         report_lines.append(
             f"| {row['figure']} | {row['test']} | {row['p_value']:.6g} | {row['reported_p']} | {row['status']} |"
         )
-    report_lines.extend(["", "## Supplementary Figures S3 and S5", "", "All 28 panel tables match the mouse-level source table; DAT-Cre row pairing is preserved.", "Total feeding time is the sum of merged-bout durations, including bridged gaps shorter than 7 s.", "P values below are two-sided and unadjusted descriptive comparisons.", "", "| Figure | Metric | Test | Computed p |", "|---|---|---|---:|"])
+    report_lines.extend(["", "## Supplementary Figures S1 and S5", "", "All 28 panel tables match the mouse-level source table; DAT-Cre row pairing is preserved.", "Total feeding time is the sum of merged-bout durations, including bridged gaps shorter than 7 s.", "P values below are two-sided and unadjusted descriptive comparisons.", "", "| Figure | Metric | Test | Computed p |", "|---|---|---|---:|"])
     for row in supplementary_rows:
         report_lines.append(f"| {row['figure']} | {row['metric']} | {row['test']} | {row['p_value']:.6g} |")
     report_lines.extend(

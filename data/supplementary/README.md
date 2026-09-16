@@ -1,13 +1,13 @@
-# Supplementary Figures S3 and S5: source data
+# Supplementary Figures S1 and S5: source data
 
-The 28 two-column CSV files contain the individual values used in the four metric columns of Supplementary Figures S3 and S5. Values and English group labels follow the final figure source tables. Each value is one mouse; DAT-Cre has two conditions for each of 12 paired mice. Blank trailing cells in independent-group tables indicate unequal group sizes and are not zeros.
+The 28 two-column CSV files contain the individual values used in the four metric columns of Supplementary Figures S1 and S5. Values and English group labels follow the final figure source tables. Each value is one mouse; DAT-Cre has two conditions for each of 12 paired mice. Blank trailing cells in independent-group tables indicate unequal group sizes and are not zeros.
 
 | Figure row | Cohort | n per group |
 |---|---|---|
-| S3A | HFD | 32, 31 |
-| S3B | Isolation, males and females pooled | 32, 31 |
-| S3C | Restraint | 23, 21 |
-| S3D | Mosapride | 14, 15 |
+| S1A | HFD | 32, 31 |
+| S1B | Isolation, males and females pooled | 32, 31 |
+| S1C | Restraint | 23, 21 |
+| S1D | Mosapride | 14, 15 |
 | S5A | HFD rescue | 7, 7 |
 | S5B | Isolation rescue | 6, 7 |
 | S5C | DAT-Cre | 12 paired |

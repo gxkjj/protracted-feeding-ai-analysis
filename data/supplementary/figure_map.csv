@@ -1,20 +1,20 @@
 figure,column,metric,unit,source_file,group_1,n_1,group_2,n_2,test
-S3A,1,Mean IBI,s,Supplementary Figure S3/HFD_IBI.csv,Control,32,Int-HFD,31,Welch t test
-S3A,2,Bout Number,count,Supplementary Figure S3/HFD_Bout.csv,Control,32,Int-HFD,31,Welch t test
-S3A,3,Latency,s,Supplementary Figure S3/HFD_Latency.csv,Control,32,Int-HFD,31,Welch t test
-S3A,4,Total feeding time,s,Supplementary Figure S3/HFD_TotalTime.csv,Control,32,Int-HFD,31,Welch t test
-S3B,1,Mean IBI,s,Supplementary Figure S3/Isolation_IBI.csv,Control,32,Isolation,31,Welch t test
-S3B,2,Bout Number,count,Supplementary Figure S3/Isolation_Bout.csv,Control,32,Isolation,31,Welch t test
-S3B,3,Latency,s,Supplementary Figure S3/Isolation_Latency.csv,Control,32,Isolation,31,Welch t test
-S3B,4,Total feeding time,s,Supplementary Figure S3/Isolation_TotalTime.csv,Control,32,Isolation,31,Welch t test
-S3C,1,Mean IBI,s,Supplementary Figure S3/Restraint_IBI.csv,Control,23,Restraint,21,Welch t test
-S3C,2,Bout Number,count,Supplementary Figure S3/Restraint_Bout.csv,Control,23,Restraint,21,Welch t test
-S3C,3,Latency,s,Supplementary Figure S3/Restraint_Latency.csv,Control,23,Restraint,21,Welch t test
-S3C,4,Total feeding time,s,Supplementary Figure S3/Restraint_TotalTime.csv,Control,23,Restraint,21,Welch t test
-S3D,1,Mean IBI,s,Supplementary Figure S3/Mosapride_IBI.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
-S3D,2,Bout Number,count,Supplementary Figure S3/Mosapride_Bout.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
-S3D,3,Latency,s,Supplementary Figure S3/Mosapride_Latency.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
-S3D,4,Total feeding time,s,Supplementary Figure S3/Mosapride_TotalTime.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
+S1A,1,Mean IBI,s,Supplementary Figure S1/HFD_IBI.csv,Control,32,Int-HFD,31,Welch t test
+S1A,2,Bout Number,count,Supplementary Figure S1/HFD_Bout.csv,Control,32,Int-HFD,31,Welch t test
+S1A,3,Latency,s,Supplementary Figure S1/HFD_Latency.csv,Control,32,Int-HFD,31,Welch t test
+S1A,4,Total feeding time,s,Supplementary Figure S1/HFD_TotalTime.csv,Control,32,Int-HFD,31,Welch t test
+S1B,1,Mean IBI,s,Supplementary Figure S1/Isolation_IBI.csv,Control,32,Isolation,31,Welch t test
+S1B,2,Bout Number,count,Supplementary Figure S1/Isolation_Bout.csv,Control,32,Isolation,31,Welch t test
+S1B,3,Latency,s,Supplementary Figure S1/Isolation_Latency.csv,Control,32,Isolation,31,Welch t test
+S1B,4,Total feeding time,s,Supplementary Figure S1/Isolation_TotalTime.csv,Control,32,Isolation,31,Welch t test
+S1C,1,Mean IBI,s,Supplementary Figure S1/Restraint_IBI.csv,Control,23,Restraint,21,Welch t test
+S1C,2,Bout Number,count,Supplementary Figure S1/Restraint_Bout.csv,Control,23,Restraint,21,Welch t test
+S1C,3,Latency,s,Supplementary Figure S1/Restraint_Latency.csv,Control,23,Restraint,21,Welch t test
+S1C,4,Total feeding time,s,Supplementary Figure S1/Restraint_TotalTime.csv,Control,23,Restraint,21,Welch t test
+S1D,1,Mean IBI,s,Supplementary Figure S1/Mosapride_IBI.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
+S1D,2,Bout Number,count,Supplementary Figure S1/Mosapride_Bout.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
+S1D,3,Latency,s,Supplementary Figure S1/Mosapride_Latency.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
+S1D,4,Total feeding time,s,Supplementary Figure S1/Mosapride_TotalTime.csv,Restraint + Control,14,Restraint + Mosapride,15,Welch t test
 S5A,1,Mean IBI,s,Supplementary Figure S5/HFD rescue_IBI.csv,Int-HFD,7,Int-HFD+DA,7,Welch t test
 S5A,2,Bout Number,count,Supplementary Figure S5/HFD rescue_Bout.csv,Int-HFD,7,Int-HFD+DA,7,Welch t test
 S5A,3,Latency,s,Supplementary Figure S5/HFD rescue_Latency.csv,Int-HFD,7,Int-HFD+DA,7,Welch t test

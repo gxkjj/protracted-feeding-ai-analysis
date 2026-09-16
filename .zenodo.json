@@ -1,8 +1,8 @@
 {
   "title": "Automated Temporal Analysis Reveals Stress-Induced Protracted Feeding Regulated by Mesolimbic Dopamine in Mice",
   "upload_type": "software",
-  "description": "Source data and a dependency-free one-command reproduction for the temporal feeding analyses. Includes Supplementary Figures S3 and S5: inter-bout interval, bout number, latency and total feeding time, with 28 panel CSVs, a panel map and a mouse-level source table. Adjacent bouts separated by gaps shorter than 7 s are merged across consecutive video files; total feeding time includes bridged gaps. The reproduction calculates two-sided, unadjusted statistics for these secondary endpoints. All source data and statistical results are unchanged from version v2; this version updates the data-availability wording. Manually recorded data not included in this repository are available from the corresponding author on reasonable request.",
-  "version": "v3",
+  "description": "Source data and a dependency-free one-command reproduction for the temporal feeding analyses. Includes Supplementary Figures S1 and S5: inter-bout interval, bout number, latency and total feeding time, with 28 panel CSVs, a panel map and a mouse-level source table. Adjacent bouts separated by gaps shorter than 7 s are merged across consecutive video files; total feeding time includes bridged gaps. The reproduction calculates two-sided, unadjusted statistics for these secondary endpoints. All data values and statistical results are unchanged from version v3; this version aligns supplementary figure labels and paths with the revised manuscript. Manually recorded data not included in this repository are available from the corresponding author on reasonable request.",
+  "version": "v4",
   "creators": [
     {
       "name": "Guo, Xiaokai",

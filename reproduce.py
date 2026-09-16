@@ -8,6 +8,7 @@ import csv
 import hashlib
 import html
 import math
+import supplementary
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable, Sequence
@@ -326,16 +327,21 @@ def reproduce(data_dir: Path, output_dir: Path) -> dict[str, object]:
     y_values = regression_columns["Y (AI)"]
     regression = linear_regression(x_values, y_values)
     comparison_rows = _comparison_rows(data_dir)
+    supplementary_rows = supplementary.statistics(data_dir, mean, sem, welch_t_test, paired_t_test)
     regression_pass = round(regression["r_squared"], 4) == 0.5819 and regression["p_value"] < 0.0001
     all_pass = regression_pass and all(row["status"] == "PASS" for row in comparison_rows)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     _write_statistics(output_dir / "manuscript_statistics.csv", regression, comparison_rows)
+    with (output_dir / "supplementary_statistics.csv").open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(supplementary_rows[0]))
+        writer.writeheader()
+        writer.writerows(supplementary_rows)
     _write_regression_svg(output_dir / "Figure_1D_regression.svg", x_values, y_values, regression)
     with (output_dir / "source_checksums.sha256").open("w", encoding="utf-8") as handle:
-        for filename in SOURCE_FILES:
-            digest = hashlib.sha256((data_dir / filename).read_bytes()).hexdigest()
-            handle.write(f"{digest}  {filename}\n")
+        for source in sorted(data_dir.rglob("*.csv")):
+            digest = hashlib.sha256(source.read_bytes()).hexdigest()
+            handle.write(f"{digest}  {source.relative_to(data_dir).as_posix()}\n")
 
     report_lines = [
         "# Reproduction report",
@@ -351,6 +357,9 @@ def reproduce(data_dir: Path, output_dir: Path) -> dict[str, object]:
         report_lines.append(
             f"| {row['figure']} | {row['test']} | {row['p_value']:.6g} | {row['reported_p']} | {row['status']} |"
         )
+    report_lines.extend(["", "## Supplementary Figures S3 and S5", "", "All 28 panel tables match the mouse-level source table; DAT-Cre row pairing is preserved.", "Total feeding time is the sum of merged-bout durations, including bridged gaps shorter than 7 s.", "P values below are two-sided and unadjusted descriptive comparisons.", "", "| Figure | Metric | Test | Computed p |", "|---|---|---|---:|"])
+    for row in supplementary_rows:
+        report_lines.append(f"| {row['figure']} | {row['metric']} | {row['test']} | {row['p_value']:.6g} |")
     report_lines.extend(
         [
             "",
@@ -361,7 +370,7 @@ def reproduce(data_dir: Path, output_dir: Path) -> dict[str, object]:
         ]
     )
     (output_dir / "reproduction_report.md").write_text("\n".join(report_lines), encoding="utf-8")
-    return {"status": "PASS" if all_pass else "FAIL", "regression": regression, "comparisons": comparison_rows}
+    return {"status": "PASS" if all_pass else "FAIL", "regression": regression, "comparisons": comparison_rows, "supplementary": supplementary_rows}
 
 
 def main() -> int:

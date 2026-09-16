@@ -365,7 +365,7 @@ def reproduce(data_dir: Path, output_dir: Path) -> dict[str, object]:
             "",
             "Reproduction covers the temporal analyses backed by the source files in this release.",
             "",
-            "Additional manually recorded data are available from the corresponding author on reasonable request.",
+            "Manually recorded data not included in this repository are available from the corresponding author on reasonable request.",
             "",
         ]
     )

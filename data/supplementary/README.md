@@ -29,4 +29,4 @@ Bout start and end times retain the values in the detailed event tables. Segment
 
 Run `./reproduce.sh` from the repository root to calculate sample sizes, means, SEMs and two-sided P values in `results/supplementary_statistics.csv`. Independent groups use Welch's t test; DAT-Cre uses a paired t test, matching observations on the same row. The 28 P values are unadjusted secondary comparisons and are descriptive.
 
-These are mouse-level figure source data. The reproduction script recalculates statistics from these endpoints; it does not rerun the classifier or reconstruct bouts from video. Figure S4 food-intake data and the reviewer-only GAP distribution, threshold-sensitivity and hourly analyses are outside this supplementary-data release.
+These are mouse-level figure source data. The reproduction script recalculates statistics from these endpoints; it does not rerun the classifier or reconstruct bouts from video. Additional manually recorded data are available from the corresponding author on reasonable request.

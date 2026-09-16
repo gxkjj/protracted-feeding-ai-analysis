@@ -24,9 +24,9 @@ The Figure 1D reproduction uses 170 mice and gives **R² = 0.5819, p < 0.0001**.
 
 ## Scope
 
-Reproduction covers the temporal analyses backed by the source files in this release. Source values for Figure 3F and Supplementary Figure S2 are held separately and are available from the corresponding author on reasonable request. See [`data/README.md`](data/README.md) for the complete paper-to-file map.
+Reproduction covers the temporal analyses backed by the source files in this release. Additional manually recorded data are available from the corresponding author on reasonable request. See [`data/README.md`](data/README.md) for the complete paper-to-file map.
 
-Supplementary Figures S3 and S5 are included in [`data/supplementary/`](data/supplementary/README.md): IBI, Bout Number, Latency and Total feeding time. Bouts are merged across consecutive video files when gaps are shorter than 7 s. Total feeding time is the sum of merged-bout durations, including bridged gaps. Figure S4 food-intake data and reviewer-only additional analyses are not included in this release.
+Supplementary Figures S3 and S5 are included in [`data/supplementary/`](data/supplementary/README.md): IBI, Bout Number, Latency and Total feeding time. Bouts are merged across consecutive video files when gaps are shorter than 7 s. Total feeding time is the sum of merged-bout durations, including bridged gaps.
 
 ## Citation
 

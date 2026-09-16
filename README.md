@@ -24,7 +24,7 @@ The Figure 1D reproduction uses 170 mice and gives **R² = 0.5819, p < 0.0001**.
 
 ## Scope
 
-Reproduction covers the temporal analyses backed by the source files in this release. Additional manually recorded data are available from the corresponding author on reasonable request. See [`data/README.md`](data/README.md) for the complete paper-to-file map.
+Reproduction covers the temporal analyses backed by the source files in this release. Manually recorded data not included in this repository are available from the corresponding author on reasonable request. See [`data/README.md`](data/README.md) for the complete paper-to-file map.
 
 Supplementary Figures S3 and S5 are included in [`data/supplementary/`](data/supplementary/README.md): IBI, Bout Number, Latency and Total feeding time. Bouts are merged across consecutive video files when gaps are shorter than 7 s. Total feeding time is the sum of merged-bout durations, including bridged gaps.
 
@@ -32,4 +32,4 @@ Supplementary Figures S3 and S5 are included in [`data/supplementary/`](data/sup
 
 GitHub: https://github.com/gxkjj/protracted-feeding-ai-analysis
 
-Zenodo: https://doi.org/10.5281/zenodo.22781815
+Zenodo: https://doi.org/10.5281/zenodo.22783337

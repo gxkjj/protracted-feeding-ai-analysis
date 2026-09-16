@@ -16,5 +16,6 @@ authors:
     given-names: Shinsuke
     affiliation: "Molecular Neuroscience Research Center, Shiga University of Medical Science"
 repository-code: "https://github.com/gxkjj/protracted-feeding-ai-analysis"
-doi: "10.5281/zenodo.22781815"
+doi: "10.5281/zenodo.22783337"
+version: "v3"
 license: MIT
